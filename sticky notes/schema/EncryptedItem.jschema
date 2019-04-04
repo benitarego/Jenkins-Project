@@ -1,0 +1,19 @@
+{
+	"title": "",
+	"type": "object",
+	"javaType": "org.standardnotes.notes.comms.data.EncryptedItem",
+    "extends" : {
+        "$ref" : "EncryptableItem.jschema"
+    },
+	"properties": {
+		"content": {
+			"type": "string"
+		},
+        "content_type": {
+			"type": "string"
+		},
+        "auth_hash": {
+		    "type": "string"
+		}
+	}
+}

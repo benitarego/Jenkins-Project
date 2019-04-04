@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a91e03f4-f6e7-44b4-9f79-657a78608cc3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sticky notes/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/androidTest/java/org/standardnotes/notes/NoteStoreTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/androidTest/java/org/standardnotes/notes/OffineSyncTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/androidTest/java/org/standardnotes/notes/ProgressIdlingResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/androidTest/java/org/standardnotes/notes/StarterActivityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/BaseActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/DebugActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/LoginActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/NoteActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/SApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/SearchActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/SettingsActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/StarterActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/TagListActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/UiUtil.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/comms/CommsManager.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/comms/Crypt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/comms/ExportUtil.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/comms/ServerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/comms/SyncManager.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/comms/data/AuthParamsResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/comms/data/ContentType.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/comms/data/EncryptableItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/comms/data/EncryptedItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/comms/data/ExportItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/comms/data/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/comms/data/NoteContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/comms/data/PlaintextItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/comms/data/Reference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/comms/data/SigninResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/comms/data/SyncItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/comms/data/Tag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/comms/data/TagContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/comms/data/UnsavedItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/comms/data/UnsavedItemError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/comms/data/UploadSyncItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/frag/NoteFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/frag/NoteListFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/store/NoteStore.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/store/ValueStore.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/widget/AppWidgetRefreshService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/java/org/standardnotes/notes/widget/NoteListWidget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/color/drawer_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/drawable-nodpi/appwidget_preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/drawable/divider.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/drawable/fab_add.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/drawable/ic_magnify.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/drawable/ic_settings_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/drawable/ic_share.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/drawable/ic_tag.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/drawable/tag_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/layout/activity_debug.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/layout/activity_search.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/layout/activity_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/layout/activity_tags.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/layout/frag_note.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/layout/frag_note_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/layout/item_note.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/layout/item_tag.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/layout/item_tag_lozenge.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/layout/view_navigation_header.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/layout/view_new_tag.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/layout/view_password_confirm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/layout/widget_note_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/menu/drawer_tags.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/menu/logged_in.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/menu/note.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/menu/search.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/values-v14/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/values-v21/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/values-w820dp/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/xml/filepaths.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/xml/note_list_widget_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/main/res/xml/settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/test/java/org/standardnotes/notes/ContentTypeTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/app/src/test/java/org/standardnotes/notes/CryptTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/schema/AuthParamsResponse.jschema" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/schema/EncryptableItem.jschema" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/schema/EncryptedItem.jschema" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/schema/Note.jschema" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/schema/NoteContent.jschema" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/schema/Reference.jschema" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/schema/SigninResponse.jschema" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/schema/SyncItems.jschema" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/schema/Tag.jschema" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/schema/TagContent.jschema" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/schema/UnsavedItem.jschema" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/schema/UnsavedItemError.jschema" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/schema/UploadSyncItems.jschema" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/tools/jsonschema2pojo-0.4.15/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/tools/jsonschema2pojo-0.4.15/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/tools/jsonschema2pojo-0.4.15/generate_pojo.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/tools/jsonschema2pojo-0.4.15/jsonschema2pojo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/tools/jsonschema2pojo-0.4.15/jsonschema2pojo-0.4.15-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/tools/jsonschema2pojo-0.4.15/jsonschema2pojo-cli-0.4.15-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/tools/jsonschema2pojo-0.4.15/jsonschema2pojo-cli-0.4.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/tools/jsonschema2pojo-0.4.15/jsonschema2pojo-core-0.4.15-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/tools/jsonschema2pojo-0.4.15/jsonschema2pojo.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/tools/jsonschema2pojo-0.4.15/lib/android-4.1.1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/tools/jsonschema2pojo-0.4.15/lib/annotations-1.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/tools/jsonschema2pojo-0.4.15/lib/codemodel-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/tools/jsonschema2pojo-0.4.15/lib/commons-io-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/tools/jsonschema2pojo-0.4.15/lib/commons-lang-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/tools/jsonschema2pojo-0.4.15/lib/commons-lang3-3.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/tools/jsonschema2pojo-0.4.15/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/tools/jsonschema2pojo-0.4.15/lib/gson-2.2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/tools/jsonschema2pojo-0.4.15/lib/httpclient-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/tools/jsonschema2pojo-0.4.15/lib/httpcore-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/tools/jsonschema2pojo-0.4.15/lib/jackson-annotations-2.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/tools/jsonschema2pojo-0.4.15/lib/jackson-core-2.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/tools/jsonschema2pojo-0.4.15/lib/jackson-core-asl-1.9.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/tools/jsonschema2pojo-0.4.15/lib/jackson-databind-2.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/tools/jsonschema2pojo-0.4.15/lib/jackson-mapper-asl-1.9.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/tools/jsonschema2pojo-0.4.15/lib/javaparser-1.0.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/tools/jsonschema2pojo-0.4.15/lib/jcommander-1.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/tools/jsonschema2pojo-0.4.15/lib/joda-time-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/tools/jsonschema2pojo-0.4.15/lib/json-20080701.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/tools/jsonschema2pojo-0.4.15/lib/jsonschema2pojo-core-0.4.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/tools/jsonschema2pojo-0.4.15/lib/opengl-api-gl1.1-android-2.1_r1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/tools/jsonschema2pojo-0.4.15/lib/validation-api-1.0.0.GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/tools/jsonschema2pojo-0.4.15/lib/xmlParserAPIs-2.6.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/tools/jsonschema2pojo-0.4.15/lib/xpp3-1.1.4c.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sticky notes/web_hi_res_512.png" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="298878635">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sticky notes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sticky notes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sticky notes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sticky notes" type="462c0819:PsiDirectoryNode" />
+              <item name="sticky notes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a91e03f4-f6e7-44b4-9f79-657a78608cc3" name="Default Changelist" comment="" />
+      <created>1554302938367</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554302938367</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.3296131" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Palette&#9;" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+</project>

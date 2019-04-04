@@ -1,0 +1,110 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.3'
+    defaultConfig {
+        applicationId "org.standardnotes.notes"
+        minSdkVersion 21
+        targetSdkVersion 25
+        versionCode 10403
+        versionName "1.4.3"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        buildConfigField "String", "SERVER_DEFAULT", "\"https://sync.standardnotes.org/\""
+    }
+    // The release password should not be stored on the repository. Use a build parameter, eg:
+    // gradlew assembleRelease -PsignPass=xxxx
+    if (project.hasProperty('signPass')) {
+        signingConfigs {
+            release {
+                storeFile file(keystore)
+                storePassword signPass
+                keyAlias "notes"
+                keyPassword signPass
+            }
+        }
+    }
+    buildTypes {
+        if (project.hasProperty('signPass')) {
+            release {
+                minifyEnabled false
+                signingConfig signingConfigs.release
+            }
+        }
+    }
+    flavorDimensions "runmethod"
+    productFlavors {
+        normal {
+            resValue "string", "app_name", "Notes"
+            dimension "runmethod"
+        }
+        emulatortest {
+            resValue "string", "app_name", "Notes (staging)"
+            applicationId "org.standardnotes.notes.buildfortest"
+            buildConfigField "String", "SERVER_DEFAULT", "\"https://stagingapi.standardnotes.org/\""
+            dimension "runmethod"
+        }
+    }
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+        test.java.srcDirs += 'src/test/kotlin'
+    }
+
+    testOptions {
+
+        unitTests.all {
+            testLogging {
+                events "passed", "skipped", "failed", "standardOut", "standardError"
+                outputs.upToDateWhen { false }
+                showStandardStreams = true
+            }
+        }
+    }
+}
+
+afterEvaluate {
+    android.sourceSets.all { sourceSet ->
+        if (!sourceSet.name.startsWith("test")) {
+            sourceSet.kotlin.setSrcDirs([])
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    androidTestCompile 'com.android.support.test:runner:0.5'
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    compile "com.android.support:appcompat-v7:$android_support"
+    compile "com.android.support:design:$android_support"
+    compile "com.android.support:support-v4:$android_support"
+    compile "com.android.support:recyclerview-v7:$android_support"
+    compile "com.android.support:preference-v7:$android_support"
+    compile "com.android.support:preference-v14:$android_support"
+    androidTestCompile 'com.android.support.test.espresso:espresso-contrib:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+        exclude group: 'com.android.support', module: 'support-v4'
+        exclude group: 'com.android.support', module: 'design'
+        exclude group: 'com.android.support', module: 'recyclerview-v7'
+    }
+    compile 'org.glassfish:javax.annotation:10.0-b28'
+    compile 'com.google.code.gson:gson:2.8.0'
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    compile 'com.squareup.okhttp3:okhttp:3.6.0'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.6.0'
+    compile 'com.madgag.spongycastle:core:1.54.0.0'
+    compile 'com.madgag.spongycastle:prov:1.54.0.0'
+    compile 'com.madgag.spongycastle:pkix:1.54.0.0'
+    compile 'com.madgag.spongycastle:pg:1.54.0.0'
+    compile 'net.danlew:android.joda:2.9.4.1'
+    compile 'ch.acra:acra:4.9.2'
+    testCompile 'junit:junit:4.12'
+}
+repositories {
+    mavenCentral()
+}

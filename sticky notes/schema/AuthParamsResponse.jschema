@@ -1,0 +1,17 @@
+{
+	"title": "",
+	"type": "object",
+	"javaType": "org.standardnotes.notes.comms.data.AuthParamsResponse",
+	"properties": {
+
+        "pw_cost": {
+            "type": "integer"
+        },
+		"pw_salt": {
+			"type": "string"
+		},
+		"version": {
+			"type": "string"
+		}
+	}
+}
